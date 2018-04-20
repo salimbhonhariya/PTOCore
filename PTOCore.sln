@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTOCore", "PTOCore\PTOCore.csproj", "{AB42A037-1274-4CB6-975F-8FB482F0D1DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB42A037-1274-4CB6-975F-8FB482F0D1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB42A037-1274-4CB6-975F-8FB482F0D1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB42A037-1274-4CB6-975F-8FB482F0D1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB42A037-1274-4CB6-975F-8FB482F0D1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87B0F81E-CE75-452F-99BC-6E8A594D0121}
+	EndGlobalSection
+EndGlobal
