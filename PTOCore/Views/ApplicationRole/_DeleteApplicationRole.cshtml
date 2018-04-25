@@ -1,0 +1,13 @@
+﻿
+@model string
+@using PTOCore.Models
+
+<form asp-action="DeleteApplicationRole" role="form">
+    @Html.Partial("~/Views/Shared/_ModalHeader.cshtml", new ModalHeader { Heading = "Delete Application Role" })
+
+    <div class="modal-body form-horizontal">
+        Are you want to delete @Model?
+    </div>
+    @Html.Partial("~/Views/Shared/_ModalFooter.cshtml", new ModalFooter { SubmitButtonText = "Delete" })
+    @*https://docs.microsoft.com/en-us/aspnet/core/mvc/views/partial?view=aspnetcore-2.1*@
+</form>

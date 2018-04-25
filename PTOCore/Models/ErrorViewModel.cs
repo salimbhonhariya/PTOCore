@@ -1,5 +1,3 @@
-using System;
-
 namespace PTOCore.Models
 {
     public class ErrorViewModel

@@ -1,0 +1,11 @@
+﻿@model string
+@using PTOCore.Models
+
+<form asp-action="DeleteUser" role="form">
+    @Html.Partial("~/Views/Shared/_ModalHeader.cshtml", new ModalHeader { Heading = "Delete User" })
+
+    <div class="modal-body form-horizontal">
+        Are you want to delete @Model?
+    </div>
+    @Html.Partial("~/Views/Shared/_ModalFooter.cshtml", new ModalFooter { SubmitButtonText = "Delete" })
+</form>
